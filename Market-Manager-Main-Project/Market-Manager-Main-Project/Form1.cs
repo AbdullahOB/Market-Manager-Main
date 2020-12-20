@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace market_manager
-{
+{//Merhaba Arkadaslar
     public partial class Form1 : Form
     {
         Form2 f2 = new Form2();
