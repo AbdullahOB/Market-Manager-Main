@@ -71,12 +71,14 @@
             // 
             // loginBtn
             // 
-            this.loginBtn.Location = new System.Drawing.Point(97, 203);
+            this.loginBtn.BackColor = System.Drawing.Color.Lime;
+            this.loginBtn.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.loginBtn.Location = new System.Drawing.Point(91, 202);
             this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(75, 23);
+            this.loginBtn.Size = new System.Drawing.Size(85, 49);
             this.loginBtn.TabIndex = 2;
             this.loginBtn.Text = "Login";
-            this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.UseVisualStyleBackColor = false;
             this.loginBtn.Click += new System.EventHandler(this.loginClk);
             // 
             // Form1
