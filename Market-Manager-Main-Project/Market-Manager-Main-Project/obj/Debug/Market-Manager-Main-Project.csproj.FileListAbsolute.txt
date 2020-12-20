@@ -1,0 +1,13 @@
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\bin\Debug\Market-Manager-Main-Project.exe.config
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\bin\Debug\Market-Manager-Main-Project.exe
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\bin\Debug\Market-Manager-Main-Project.pdb
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\Market-Manager-Main-Project.csprojAssemblyReference.cache
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\Market_Manager_Main_Project.Properties.Resources.resources
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\Market-Manager-Main-Project.csproj.GenerateResource.cache
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\Market-Manager-Main-Project.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\Market-Manager-Main-Project.exe
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\Market-Manager-Main-Project.pdb
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\market_manager.Form1.resources
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\market_manager.Form2.resources
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\market_manager.TemizlikUrunler.IndirimliFiyat.resources
+C:\Users\Abdullah\OneDrive\Desktop\MarketMG\Market-Manager-Main-Project\Market-Manager-Main-Project\obj\Debug\market_manager.TemizlikUrunler.TemizlikUrunleriForm.resources
