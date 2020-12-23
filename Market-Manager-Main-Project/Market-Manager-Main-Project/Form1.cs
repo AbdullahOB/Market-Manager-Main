@@ -26,7 +26,7 @@ namespace market_manager
        
 
         private void loginClk(object sender, EventArgs e)
-        {
+        {/*
             if ((username.Text == adminUserName&&password.Text==adminPassword ))
             {
                
@@ -41,10 +41,10 @@ namespace market_manager
 
             else if((username.Text == superAdminUserName && password.Text == superAdminPassword))
             {
-                MessageBox.Show("Login Successed!");
-                this.Hide();
-                Form2 f2 = new Form2();
-                f2.ShowDialog();
+                 MessageBox.Show("Login Successed!");
+                 this.Hide();
+                 Form2 f2 = new Form2();
+                 f2.ShowDialog();
             }
             else
             {
@@ -52,7 +52,14 @@ namespace market_manager
                 Application.Exit();
             }
             
-           
+           */
+
+
+            /*TO DELETE*/
+            //MessageBox.Show("Login Successed!");
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
         }
 
         private void username_TextChanged(object sender, EventArgs e)
