@@ -46,9 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalisanDurumuTakibi.cs">
+    <Compile Include="DurumTakipEkrani\CalisanDurumuTakibi.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DurumTakipEkrani\Calisanlar.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +77,9 @@
     <Compile Include="TemizlikUrunler\TemizlikUrunleriForm.Designer.cs">
       <DependentUpon>TemizlikUrunleriForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DurumTakipEkrani\CalisanDurumuTakibi.resx">
+      <DependentUpon>CalisanDurumuTakibi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
