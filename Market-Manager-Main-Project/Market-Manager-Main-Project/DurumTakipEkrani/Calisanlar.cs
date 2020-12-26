@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace market_manager
 {
 
-    public enum pozisyon { M, MY, K }
-
-    public class Calisanlar
+   public class Calisanlar
     {
 
         private int hIzinSayisi = 4;
@@ -18,9 +16,9 @@ namespace market_manager
         private string adSoyad, adres, subeAdi;
         private long cepTel;
         private double maas;
-        private pozisyon tipC;
-
-        public Calisanlar(string adSoyad, string adres,  long cepTel, string subeAdi, double maas, int hIzinSayisi, int yIzinSayisi, int kalanIzinSayisi , pozisyon t)
+        private string poz;
+        
+        public Calisanlar(string adSoyad, string adres,  long cepTel, string subeAdi, double maas, int hIzinSayisi, int yIzinSayisi, int kalanIzinSayisi , string poz)
         {
             this.adSoyad = adSoyad;
             this.adres = adres;
@@ -29,8 +27,9 @@ namespace market_manager
             this.maas = maas;
             this.hIzinSayisi = hIzinSayisi;
             this.yIzinSayisi = yIzinSayisi;
-            this.kalanIzinSayisi = kalanIzinSayisi; 
-            this.tipC = t;
+            this.kalanIzinSayisi = kalanIzinSayisi;
+            this.poz = poz; 
+          
 
         }
 
@@ -77,17 +76,11 @@ namespace market_manager
             set { kalanIzinSayisi = value;  }
         }
 
-        public pozisyon TipC
+        public string Poz
         {
-           get { return tipC; }
-           set { tipC = value; }
+           get { return poz; }
+           set { poz = value; }
         }
-
-    
-
-
-
-
 
 
     }

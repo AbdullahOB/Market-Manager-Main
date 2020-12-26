@@ -27,32 +27,34 @@ namespace market_manager
 
         private void loginClk(object sender, EventArgs e)
         {
-            if ((username.Text == adminUserName&&password.Text==adminPassword ))
-            {
-               
-                MessageBox.Show("Login Successed!");
-                f2.gdBtn.Visible= false;
-                f2.temBtn.Visible = false;
-                this.Hide();
-                
-                f2.ShowDialog();
-               
-            }
+            /* if ((username.Text == adminUserName&&password.Text==adminPassword ))
+             {
 
-            else if((username.Text == superAdminUserName && password.Text == superAdminPassword))
-            {
-                MessageBox.Show("Login Successed!");
-                this.Hide();
-                Form2 f2 = new Form2();
-                f2.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Login Failed... Username Or Password is wrong");
-                Application.Exit();
-            }
-            
-           
+                 MessageBox.Show("Login Successed!");
+                 f2.gdBtn.Visible= false;
+                 f2.temBtn.Visible = false;
+                 this.Hide();
+
+                 f2.ShowDialog();
+
+             }
+
+             else if((username.Text == superAdminUserName && password.Text == superAdminPassword))
+             {
+                 MessageBox.Show("Login Successed!");
+                 this.Hide();
+                 Form2 f2 = new Form2();
+                 f2.ShowDialog();
+             }
+             else
+             {
+                 MessageBox.Show("Login Failed... Username Or Password is wrong");
+                 Application.Exit();
+             } */
+
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
         }
 
         private void username_TextChanged(object sender, EventArgs e)
